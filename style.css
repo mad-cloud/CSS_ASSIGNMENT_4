@@ -1,0 +1,111 @@
+.offer{
+    text-align:center;
+    text-decoration: underline;
+    background: linear-gradient(
+        to right,
+        red 0% 20%,
+        green 30% 100%
+    );
+}
+.tab{
+    margin:auto;
+    width:700px;
+    border:3px solid red;
+    border-radius:10px;
+    background-color: aqua;
+    text-align: center;
+    margin-bottom:5px;
+    
+}
+li{
+    padding-right:250px
+}
+ul{
+   padding-left:300px
+}
+.grid-container{
+    background-color: green;
+    display:grid;
+    grid-template-columns:auto auto auto;
+    row-gap: 2px;
+    border-radius:10px
+}
+.grid-item{
+    background-color: aqua;
+    width:350px;
+    height:80px;
+    border-radius: 10px;
+}
+.perform{
+    text-align:center;
+    text-decoration: underline;
+    background: linear-gradient(
+        to right,
+        red 0% 20%,
+        orange 30% 60%,
+        yellow   70% 100%
+        
+    );
+}
+.flex-container{
+    display:flex;
+    justify-content: space-evenly;
+    background:radial-gradient(
+        darkblue,
+          green
+    );
+    padding-top:40px;
+    padding-bottom:40px
+    
+}
+.flex-item{
+    background-color:yellow;
+    text-align:center;
+    text-decoration: underline;
+    border:3px solid red;
+    border-radius:10px;
+    color:red;
+}
+.bestplace{
+    background-color: red;
+    color:white;
+    text-align:center;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto 150px;
+    gap:10px;
+}
+.grid-item1{
+    background-color: green;
+    color:white;
+    text-align: center;
+}
+.grid-item2{
+    background-color: blue;
+    color:white;
+}
+.grid-item3{
+    background-color: darkblue;
+    color:white;
+}
+.grid-item4{
+    background-color: black;
+    color:white;
+    text-decoration: underline;
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start:4;
+    grid-column-end:5;
+
+}
+.grid-item5{
+    background-color: orangered;
+    color:white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.wish{
+    background-color: aqua;
+    text-align: center;
+}
